@@ -1,47 +1,17 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import java.util.*;
-// public class Main {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("Enter the sides of triangle");
-//         double num1 = sc.nextDouble();
-//         double num2 = sc.nextDouble();
-//         double pythagoraes;
-//         pythagoraes = Math.pow(num1, 2) + Math.pow(num2, 2);
-//         double pytha = Math.sqrt(pythagoraes);
-//         System.out.println(pytha);
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the sides of triangle");
+        double num1 = sc.nextDouble();
+        double num2 = sc.nextDouble();
+        double pythagoraes;
+        pythagoraes = Math.pow(num1, 2) + Math.pow(num2, 2);
+        double pytha = Math.sqrt(pythagoraes);
+        System.out.println(pytha);
         
-//     }
-// }
+    }
+}
 //Income tax Calculator.
 // import java.util.Scanner;
 // public class Main{
