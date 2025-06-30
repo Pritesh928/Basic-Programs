@@ -1,15 +1,30 @@
-import java.util.*;
 public class Main {
+    int numberofdoors;
+    int noofwheels;
+    int maxSpeeed;
+    String name;
+    String modelnumber;
+    String company;
+    
+    public Main(int numberofdoors, int noofwheels, int maxSpeeed, String name, String modelnumber, String company) {
+        this.numberofdoors = numberofdoors;
+        this.noofwheels = noofwheels;
+        this.maxSpeeed = maxSpeeed;
+        this.name = name;
+        this.modelnumber = modelnumber;
+        this.company = company;
+    }
+    
+    @Override
+    public String toString() {
+        return "Main [numberofdoors=" + numberofdoors + ", noofwheels=" + noofwheels + ", maxSpeeed=" + maxSpeeed
+                + ", name=" + name + ", modelnumber=" + modelnumber + ", company=" + company + "]";
+    }
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the sides of triangle");
-        double num1 = sc.nextDouble();
-        double num2 = sc.nextDouble();
-        double pythagoraes;
-        pythagoraes = Math.pow(num1, 2) + Math.pow(num2, 2);
-        double pytha = Math.sqrt(pythagoraes);
-        System.out.println(pytha);
-        
+        Main swift = new Main(4, 4, 20,"swift","12sse","Maruti");
+        System.out.println(swift);
+
     }
 }
 //Income tax Calculator.
